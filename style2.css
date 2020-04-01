@@ -1,0 +1,73 @@
+<!--External CSS file-->
+ body{
+	  min-height: 600px;
+  }
+  .dec{
+	  margin-top:150px;
+	  margin-bottom:150px;
+	  padding-top:80px;
+	  padding-bottom:80px;
+	  background-color:rgb(123 15 131);
+	  color:white;
+	   }
+  .p_style{
+	  font-family:elephant;
+	  font-size: 17px;
+	  
+  }
+  
+  .container_dec{padding-top:100px;
+  }
+  .container1_dec{
+  padding-bottom:200px;
+  }
+  table{margin-bottom:260px;
+  margin-top:20px;
+border:5px solid black;
+width:60%;
+border-collapse:collapse;
+}
+.btn{
+		padding:10px 30px 10px 30px;
+		}
+  td,th{
+	  text-align:center;
+padding :20px 20px 20px 20px;
+border:2px solid black;
+
+  }
+ 
+.banner-image{
+
+  padding-top: 75px; 
+  padding-bottom: 50px; 
+  text-align: center;
+  color: #f8f8f8;
+  background: url("img/intro-bg_1.jpg")no-repeat center center; 
+  background-size:cover; 
+  }
+ 
+  .banner_content{ position: relative;
+				padding-top: 6%;
+				padding-bottom: 6%;
+				margin-top: 12%; 
+				margin-bottom: 12%; 
+				background-color: rgba(0, 0, 0, 0.7);
+				max-width: 660px; 
+}
+ .footer{
+	    padding: 10px 0;
+		background-color: #101010;
+		color:#9d9d9d;
+		bottom: 0;
+		width: 100%; 
+ }
+ .row_style{
+	 margin-top:150px;
+	 margin-bottom:280px;
+ }
+ .row_style1{
+	 margin-top:100px;
+	 margin-bottom:80px;
+ }
+ 

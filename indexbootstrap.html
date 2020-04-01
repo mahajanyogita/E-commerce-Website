@@ -1,0 +1,309 @@
+<!doctype html>
+<!--bootstrap-->
+<html>
+<head>
+<title>Bootstrap Introduction</title>
+<link rel="stylesheet"href="bootstrap/css/bootstrap.min.css" type="text/css">
+<script type="text/javascript" src="bootstrap/js/jquery-3.4.1.slim.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+		body{
+background-image:url("https://ak1.picdn.net/shutterstock/videos/14755141/thumb/2.jpg");
+height:3000px;
+padding-top:12px;
+margin:50px 50px 50px 50px;
+}
+ .row_style{margin-top:10px;
+            }
+.button-hover1{background-color:green;
+					color:white;
+}
+.button-hover2{background-color:red;
+				color:white;
+}
+.button-hover{background-color:rgb(223 19 184);
+color:white;
+}
+.container_dec{
+				text-align:left;
+				color:rgb(102 0 51);
+				
+				}
+.jumbotron{
+			background-color:rgb(119 11 107);
+			font-family:algerian;
+			text-align:center;
+			color:rgb(32 231 252);
+			}
+.table-bordered{
+			width:100%;
+			border:5px solid red;
+			}
+th{
+		background-color:yellow;
+		}
+.table-hover{	
+				background-color:grey;
+				font-size:20px;
+			}
+.col_dec{
+			border:2px solid blue;
+			}
+.navbar{
+		background-color:rgb(246 178 248);
+		text-indent:20px;
+		font-size:20px;
+		}
+	.col_dec{
+				font-size:50px;
+				color:maroon;
+				font-family:cooper black;
+				}
+				
+</style>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+<a href="#"><img src="https://vit.edu.in/wp-content/uploads/2019/05/VIT-logo.png" alt ="VIT" class="logo" hight="200px" width="200px" float="left"> 
+
+</a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav navbar-right">
+<li class="active">
+<a href "#"><span class="glyphicon glyphicon-home"></span><b>HOME</b></a>
+</li>
+<li>
+<a href "#"><span class="glyphicon glyphicon-user"></span><b> Sign Up</b></a>
+</li>
+<li>
+<a href "#"><span class="glyphicon glyphicon-log-in"></span><b> Login</b></a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+  <div class="container">
+            <div class="row row_style">
+                <div class="col-lg-4 ">
+                    <!-- Add your code here -->
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h2>Login</h2>
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <div class="form-group">
+                                    
+                                    <input type="text" class="form-control" name="email" placeholder="Email" required="true">
+                                </div>
+                                 <div class="form-group">
+                                    
+                                    <input type="password" class="form-control" name="password" placeholder="password" required="true">
+                                </div>
+                                <div class="form-group">
+                                    
+						<button type="submit" class=" btn  btn-primary "><B><I>SUBMIT</i>
+						    </b></BUTTON>
+                               
+                                </div>
+                             </form>
+                             </div>
+                             <div class="panel-footer">
+                                 <p>Don't have an account?</p>
+                                 <a  href="#signup">Register</a>
+                             </div>
+                        </div>
+                </div>
+        </div>
+        </div>
+
+
+
+
+
+<!--breakpoints-->
+	<div class="col-lg-9">
+		<div class="visible-lg"><H1><font COLOR="black" face="wide latin"><CENTER><marquee>WELCOME</marquee></CENTER></font></H1></div>
+
+<!--container elements-->
+			<div class=" container_dec"><h1>YOGITA MAHAJAN</h1>
+					<h3>computer engineer</h3></DIV>
+			
+<!--jumbotron-->
+				<div class="jumbotron">
+						<h1>vidyalankar Institute of technology</h1>
+						<br>
+<!-- glyphicons-->
+						<h3>Be sure with Vidyalankar       <span class="glyphicon glyphicon-thumbs-up"></span></h3>
+				</div>
+
+<!--table-->
+				<div class="table-responsive">
+						<table class=" table-bordered table-hover"  >
+						<tbody>
+						<h3><b>student record:</b></h3>
+							<tr>
+								<th>QUALIFICATION</th><th>SCHOOL/COLLEGE NAME</th><th>PERCENTAGE</th>
+							</tr>
+							<tr>
+									<td>SSC</td><td>ULHAS VIDYALAYA</td><td>92.60%</td>
+							</tr>
+							<tr>
+									<td>HSC</td><td>SMT. C.H.M. COLLEGE</td><td>87.08%</td>
+							</tr>
+							<tr>
+									<td>FE</td><td>VIDYALANKAR INSTITUTE OF TECHNOLOGY</td><td>83.97%</td>
+							</tr>
+						</tbody>
+						</table>
+				</div><br><br>
+<!--creating layouts-->
+<!--image-->
+				<div class="row">
+			
+					<div class="col-lg-4">
+
+						<a href="#" class="thumbnail"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkf_74-fLtCPRR1BFRkAWiTh4w64JxdGSbPcqzaG3iG-IeCGJK&s" alt="" 
+							class="img-responsive">
+								<div class="caption">
+								<center>
+								<h2>VIT AUDITORIUM</h2>
+								<P>BEST AWARD WINNING AUDITORIUM</P>
+								</center>
+								</DIV>
+						</a>
+		
+					</div>
+					<div class="col-lg-4 col-lg-offset-1">
+						<a href="#" class="thumbnail"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu4lv27eRYRfKHgTeBRD6PP8Y-0gjvKrUm7ua8gLXX9Q2Pq1-C&s" alt=""
+							class="img-responsive ">
+								<div class="caption">
+								<center>
+									<h2>VIT INFRASTRUCTURE</h2>
+									<P>BEST AWARD WINNING INFRASTRUCTURE </P>
+								</center>
+								</DIV>
+						</a>
+					</div>
+					</div>
+			</div>
+
+
+
+
+
+
+		<div class="col-lg-3 col_dec">
+			<h2><B>INDEX</B></H2>
+				<BR><br>
+				<a href="#signup" >Sign Up </a>
+					<br><br>
+				<a href="#login" >Login </a>
+						<br><br>
+						<a href="#studentrecord" >student record</a>
+						<br><br>
+					<a href="#gallary" >Gallary </a>
+
+		</div>
+		<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+					<h2><b><I><font color=fuchsia">Fill the following form</font></i></b></h2>
+					<form class="form-inline">
+					<label for="Sign Up"><b><font size="5px">SIGN UP &nbsp &nbsp &nbsp: </b></font></label>
+					<div class="form-group">
+						<input type="text" class="form-control input-lg" name="fist name"placeholder="first name">
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control input-lg" name="middle name"placeholder="middle name">
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control input-lg" name="last name"placeholder="last name">
+					</div><br><br>
+					<div class="form-group">
+					<label for="first name"><b><font size="5px">COLLEGE NAME : </b></font></label>
+						<input type="text" class="form-control input-lg" name="college name"placeholder="college name">
+					</div><br><br>
+					
+					<div class="form-group">
+					<label for="number"><b><font size="5px">ROLL NO:  </b></font></label>
+						<input type="ALPHANUM" class="form-control input-lg" name="roll no"placeholder="Enter roll no/seat no">
+					</div><br><br>
+					<div class="form-group">
+					<label for="gender"><b><font size="5px">GENDER :  </b></font></label>
+						<input type="radio" name="gender"value="male"><b><font size="4px" color="maroon" >MALE &nbsp &nbsp
+						<input type="radio" name="gender"value="female">FEMALE</b></font>
+					</div><br><br>
+					<div class="form-group">
+					<label for="number"><b><font size="5px">DATE OF BIRTH:  </b></font></label>
+						<input type="date" class="form-control input-lg" name="date">
+					</div><br><br>
+					
+					<div class="form-group">
+					<label for="course"><b><font size="5px">OCCUPATION:</B></FONT></LABEL>
+					<select name="course" CLASS="form-control input-lg">
+					<option value="Diploma">Diploma</option>
+					<option value="Bachlor of Engineering">Bachlor of Engineering</option>
+					<option value="Master of Engineering">Master of Engineering</option>
+					</select><br><br>
+					
+					<div class="form-group">
+					<label for="number"><b><font size="5px">SEM I:  </b></font></label>
+						<input type="number" class="form-control input-lg" name="SEM I"placeholder="SEM I">
+					</div>
+					<div class="form-group">
+					<label for="number"><b><font size="5px">SEM II:  </b></font></label>
+						<input type="number" class="form-control input-lg" name="SEM II"placeholder="SEM II">
+					</div><br><br>
+					<div class="form-group">
+					<label for="number"><b><font size="5px">HAVE ANY LIVE KT : </b></font></label>
+						<input type="button" class="form-control input-lg button-hover1 "value="YES">&nbsp &nbsp
+						<input type="button"class="form-control input-lg button-hover2" value="NO">
+					</div>&nbsp &nbsp &nbsp &nbsp
+				<div class="form-group">
+					<label for="number"><b><font size="5px">NUMBER OF KT's:  </b></font></label>
+						<input type="number" class="form-control input-lg" name="KT"placeholder="enter no. of kt">
+					</div><br><br>
+					<div class="form-group">
+					<label for="checkbox"><b><font size="5px">INTERESTED IN: </b></font></label>
+					<b><font size="4px" color="olive">	<input type="checkbox" class="form-control input-lg checkbox-dec" name="QUALIFICATION" value="INTERNSHIP">INTERNSHIP&nbsp &nbsp
+						<input type="checkbox" class="form-control input-lg " name="QUALIFICATION" value="PLACEMENT">PLACEMENT&nbsp &nbsp
+						<input type="checkbox" class="form-control input-lg " name="QUALIFICATION" value="M.TECH/M.E">M.TECH/M.E&nbsp &nbsp
+						<input type="checkbox" class="form-control input-lg " name="QUALIFICATION" value="MBA">MBA&nbsp &nbsp
+						<input type="checkbox" class="form-control input-lg " name="QUALIFICATION" value="OTHER">OTHER	&nbsp &nbsp	
+				</b></font>
+					</div><br><br>
+						<div class="form-group">
+				
+						<button type="submit" class="form-control input-lg btn button-hover btn-hover btn-lg"><B><I>SUBMIT</B></I></BUTTON>
+					</div>
+					
+					
+					</div>
+				</div>
+		</div>
+		
+			
+					
+					
+						
+		
+		
+		
+
+
+
+
+</body>
+</html>
